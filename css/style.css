@@ -1,53 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700');
-@import url('https://fonts.googleapis.com/css?family=Catamaran:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
 
 body{
     /* font-family: 'Merriweather', serif; */
-    font-family: 'Muli', sans-serif;
+    font-family: 'Arbutus Slab', serif;
     overflow-x: hidden;
 }
 
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* custom bootstrap */
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85rem;
+    font-weight: 600;
+}
 .nav-link:hover{
     color: #fff !important;
 }
 
 #cover{
     height: 100vh;
-    color: white;
-    background-image: url(../image/cover.jpg);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
+}
+
+svg{
+    position: absolute;
 }
 
 .bg-green{
     background-color: rgba(186, 242, 187, 0.8);
 }
 
-.overlay {
-    position: relative;
+.homesec-sub{
+    position: absolute;
+    margin-top: 37vh;
 }
 
-.overlay:before{
-    position: absolute;
-    content:" ";
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    display: block;
-    z-index:0;
-    /* background-color: rgba(186, 242, 187, 0.8); */
-    background-color: rgba(69, 22, 188, 0.8);
+.booktool{
+    height: 3.5em;
+    width: 80% !important;
+    background: #ddd;
+    border-radius: 3.5em;;
 }
 
 .cover-head{
     font-size: 4em;
-    font-family: 'Merriweather', serif;
-    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.cover-head-sub{
+    font-size: 2em;
+    color: #6e6e6e;
 }
 
 .book-toolkit{
