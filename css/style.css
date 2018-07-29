@@ -4,7 +4,7 @@
 
 body{
     /* font-family: 'Merriweather', serif; */
-    font-family: 'Arbutus Slab', serif;
+    /* font-family: 'Arbutus Slab', serif; */
     overflow-x: hidden;
     background: url(../image/ecailles.png) repeat;
 }
@@ -78,15 +78,17 @@ section{
 }
 
 .cover-head{
-    margin-top: 2.2em;
+    margin-top: 2.7em;
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    line-height: 30px;
 }
 
 .cover-head-sub{
     font-size: 1em;
     color: #333333;
+    
 }
 
 .book-toolkit{
@@ -98,6 +100,11 @@ section > .border-bar{
     width: 6em;
     background-color: #a5a5a5;
     height: 1px;
+}
+
+.features p{
+    /* text-align: left; */
+    padding: 0px 35px;
 }
 
 
