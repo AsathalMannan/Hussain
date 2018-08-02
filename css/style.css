@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
     /* font-family: 'Merriweather', serif; */
@@ -29,7 +30,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #cover{
-    background: url(../image/cover.svg) no-repeat;
+    background: url(../image/1.svg) no-repeat;
     background-size: cover;
     /* padding-bottom: 100px; */
 }
@@ -62,19 +63,10 @@ section{
     color: #555555;
 }
 
-.header-booking > input:nth-child(1){
-    border-top-left-radius: 3.5em;
-    border-bottom-left-radius: 3.5em;
-}
-
 .header-booking > button{
     height: 3.5em;
     width: 15em !important;
     font-size: 16px;
-    border-top-right-radius: 3.5em;
-    border-bottom-right-radius: 3.5em;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
 }
 
 .cover-head{
@@ -107,5 +99,14 @@ section > .border-bar{
     padding: 0px 35px;
 }
 
+#about{
+    background: url(../image/2-1.svg) no-repeat;
+    background-size: contain;
+}
 
+#about p{
+    font-size: 110%;
+    line-height: 180%;
+    font-family: 'Lato', sans-serif;
+}
 
