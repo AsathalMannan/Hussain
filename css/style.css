@@ -31,14 +31,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #cover{
-    background: url(../image/1.svg) no-repeat;
+    background: url(../image/1.svg) no-repeat center;
     background-size: cover;
 }
 
 .btn-green{
     background: #00f261;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    
 }
 
 .bg-green{
@@ -64,6 +63,13 @@ h1,h2,h3,h4,h5,h6{
     height: 3.5em;
     width: 15em !important;
     font-size: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.header-booking > input:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .cover-head{
@@ -146,4 +152,15 @@ section > .border-bar{
 .price-card .card-body p{
     color: #005BEA;
     font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.price-card .card-body ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.duration{
+    font-size: 14px;
+    font-weight: 200;
 }
