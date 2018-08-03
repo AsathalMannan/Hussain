@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:200,400,500,600,700');
 
 body{
     /* font-family: 'Merriweather', serif; */
     /* font-family: 'Arbutus Slab', serif; */
     overflow-x: hidden;
-    background: url(../image/ecailles.png) repeat;
+    /* background: url(../image/ecailles.png) repeat; */
     position: relative;
 }
 
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .bg-green{
-    background-color: rgba(186, 242, 187, 0.8);
+    background-color: rgba(186, 242, 187, 0.1);
 }
 
 .homesec-sub{
@@ -160,7 +160,60 @@ section > .border-bar{
     padding: 5px 0px;
 }
 
+.old-price{
+    font-size: 20px;
+}
+
 .duration{
     font-size: 14px;
     font-weight: 200;
+}
+
+#booking .body{
+    margin-top: 4em;
+}
+
+#booking .body p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#booking .body p:nth-child(1){
+    font-size: 2em;
+}
+
+#booking .body p:nth-child(2){
+    font-size: 1em;
+}
+
+#booking .body .body2{
+    margin-left: 2em;
+}
+
+#booking .body .body2 p:nth-child(1){
+    font-size: 1.5em;
+    line-height: 5px;
+    margin: 2em 0em 0em 0em;
+    text-decoration: underline;
+    line-break: normal;
+}
+
+#booking .body .body2 p:nth-child(2){
+    font-size: 1.4em;
+    margin: 15px 0px;
+    padding: 0px;
+}
+
+.vertical-middle{
+    vertical-align: middle;
+}
+
+footer{
+    background: #f8f8f8;
+}
+
+.address-body p:nth-child(1){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 5em;
+    text-decoration: underline;
+    font-weight: 700;
 }
