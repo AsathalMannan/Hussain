@@ -7,7 +7,7 @@ body{
     /* font-family: 'Merriweather', serif; */
     /* font-family: 'Arbutus Slab', serif; */
     overflow-x: hidden;
-    /* background: url(../image/ecailles.png) repeat; */
+    background: url(../image/ecailles.png) repeat;
     position: relative;
 }
 
@@ -46,7 +46,6 @@ h1,h2,h3,h4,h5,h6{
 
 .homesec-sub{
     margin-top: 3em;
-    /* margin-top: 37vh; */
 }
 
 .header-booking > input{
@@ -72,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 .cover-head-sub{
@@ -85,22 +84,14 @@ h1,h2,h3,h4,h5,h6{
     background-color: rgba(0, 0, 0, 0.40) !important;
 }
 
-section > .border-bar{
-    margin: auto;
-    width: 6em;
-    background-color: #a5a5a5;
-    height: 1px;
-}
-
 .features p{
-    /* text-align: left; */
     padding: 0px 35px;
 }
 
 #about{
     background: url(../image/2-1.svg) no-repeat;
     background-size: contain;
-    
+    background-color: #fcfcfc;
 }
 
 #about p{
@@ -180,9 +171,9 @@ section > .border-bar{
     font-size: 1em;
 }
 
-#booking .body .body2{
+/* #booking .body .body2{
     margin-left: 2em;
-}
+} */
 
 #booking .body .body2 p:nth-child(1){
     font-size: 1.3em;
@@ -220,13 +211,17 @@ footer{
     font-weight: 700;
 }
 
-.contact-body > p:nth-child(2), .contact-body > p:nth-child(3){
+.contact-body > p:nth-child(2), .contact-body > p:nth-child(3), .contact-body > p:nth-child(4){
     line-height: 10px;
 }
 
 .contact-body > p:nth-child(2) a, .contact-body > p:nth-child(3) a, .contact-body > p:nth-child(4) a{
     color: #333333;
     text-decoration: none;
+}
+
+.site-information p{
+    margin-bottom: 0px;
 }
 
 .site-information, .site-information a{
