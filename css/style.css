@@ -35,8 +35,8 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
 }
 
-.btn-green{
-    background: #00f261;
+.btn-yellow{
+    background: #f2e200;
     
 }
 
@@ -53,6 +53,7 @@ h1,h2,h3,h4,h5,h6{
     height: 3.5em;
     width: 15em !important;
     border-radius: 0px;
+    border: 0px;
     padding-left: 1.5rem;
     font-size: 16px;
     color: #555555;
@@ -63,13 +64,7 @@ h1,h2,h3,h4,h5,h6{
     height: 3.5em;
     width: 15em !important;
     font-size: 16px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
-.header-booking > input:nth-child(1){
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 0px;
 }
 
 .cover-head{
@@ -105,6 +100,7 @@ section > .border-bar{
 #about{
     background: url(../image/2-1.svg) no-repeat;
     background-size: contain;
+    
 }
 
 #about p{
@@ -114,7 +110,6 @@ section > .border-bar{
 }
 
 .gallery-container{
-    /* margin-left: 30%; */
     color: #fff;
 }
 
