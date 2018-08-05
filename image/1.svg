@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.st1{fill:url(#SVGID_1_);}
-	.st2{fill:none;}
-</style>
-<path class="st0" d="M0.5,163.5"/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="960" y1="1080" x2="960" y2="699.9965" gradientTransform="matrix(1 0 0 -1 0 1080)">
-	<stop  offset="0" style="stop-color:#005BEA"/>
-	<stop  offset="1" style="stop-color:#66A6FF"/>
-</linearGradient>
-<path class="st1" d="M0,0l0.2,280L920,380c0.1,0.7,1000.1-99.3,1000-100V0H0z"/>
-<rect x="726.8" y="64.8" transform="matrix(0.284 -0.9588 0.9588 0.284 408.0133 1090.9558)" class="st2" width="415.4" height="415"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="683" x2="683" y2="255.26" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#005bea"/><stop offset="1" stop-color="#66a6ff"/></linearGradient></defs><title>1</title><polygon class="cls-1" points="0 0 1366 0 1366 158.7 683 255 0 158.7 0 0"/></svg>
