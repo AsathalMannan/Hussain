@@ -25,6 +25,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: .85rem;
     font-weight: 600;
 }
+
 .nav-link:hover{
     color: #fff !important;
 }
@@ -239,6 +240,11 @@ h1,h2,h3,h4,h5,h6{
 .duration{
     font-size: 14px;
     font-weight: 200;
+}
+
+#booking{
+    background: #3cba9256;
+    position: relative;
 }
 
 #booking .body{
