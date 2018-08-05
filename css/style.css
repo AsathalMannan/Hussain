@@ -159,20 +159,26 @@ h1,h2,h3,h4,h5,h6{
     height: 10em;
     text-align: center;
     border: 0px;
-    
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.cardimg{
+/* .cardimg{
     height: inherit;
     border-radius: inherit;
-}
+    position: absolute;
+} */
 
-.cardimg-1{ background: url('../image/rooms/DBLAC1.jpeg') no-repeat center; background-size: cover; }
-.cardimg-2{ background: url('../image/rooms/DBLAC2.jpg') no-repeat center; background-size: cover; }
-.cardimg-3{ background: url('../image/rooms/DBLAC3.jpg') no-repeat center; background-size: cover; }
-.cardimg-4{ background: url('../image/rooms/DBLAC4.jpg') no-repeat center; background-size: cover; }
-.cardimg-5{ background: url('../image/rooms/DBLAC5.jpg') no-repeat center; background-size: cover; }
-.cardimg-6{ background: url('../image/rooms/DBLAC6.jpg') no-repeat center; background-size: cover; }
+.cardimg-1{ background: url('../image/rooms/DBLAC1.jpeg') no-repeat center; background-size: cover; transition: all .5s; }
+.cardimg-2{ background: url('../image/rooms/DBLAC2.jpg') no-repeat center; background-size: cover; transition: all .5s; }
+.cardimg-3{ background: url('../image/rooms/DBLAC3.jpg') no-repeat center; background-size: cover; transition: all .5s; }
+.cardimg-4{ background: url('../image/rooms/DBLAC4.jpg') no-repeat center; background-size: cover; transition: all .5s; }
+.cardimg-5{ background: url('../image/rooms/DBLAC5.jpg') no-repeat center; background-size: cover; transition: all .5s; }
+.cardimg-6{ background: url('../image/rooms/DBLAC6.jpg') no-repeat center; background-size: cover; transition: all .5s; }
+
+.cardimg-1:hover, .cardimg-2:hover, .cardimg-3:hover, .cardimg-4:hover, .cardimg-5:hover, .cardimg-6:hover{ 
+    transform: scale(1.2);
+}
 
 .price-card{
     /* border: 2px solid #66A6FF; */
