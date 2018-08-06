@@ -1,3 +1,8 @@
+/* Hussain Lodge, Tirunelveli. */
+/* Main Cascaded Style Sheet */
+/* Created by Ajmal Hussain Hy, https://ajmalhussain.in */
+/* Note: Fonts used in this sheet are open source font */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
@@ -331,4 +336,8 @@ footer{
     color: #fff;
     background: #222;
     text-decoration: none;
+}
+
+.underline{
+    border-bottom: 1px dashed;
 }
